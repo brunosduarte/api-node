@@ -1,6 +1,7 @@
 ### REST Client for Visual Studio Code "ext install humao.rest-client" ###
 
-@baseUrl = http://localhost:3333/transactions
+###@baseUrl = http://localhost:3333/transactions
+@baseUrl = https://api-node-hjlr.onrender.com/transactions
 
 ### List transactions
 GET {{baseUrl}}
