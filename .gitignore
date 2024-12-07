@@ -1,5 +1,5 @@
 node_modules
+db/app.db
+db/test.db
 .env
-build
-coverage
-./node_modules
+.env.test
