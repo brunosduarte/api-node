@@ -7,7 +7,7 @@ export const app = fastify()
 app.register(cookie)
 
 app.addHook('preHandler', async (request) => {
-  console.log(`[${request.method}] - ${request.url}`)
+  console.log(`[${request.method}] ${request.url}`)
 })
 
 app.register(transactionsRoutes, {
