@@ -8,7 +8,7 @@
     "knex": "node --no-warnings --import tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
     "prebuild": "tsup src --out-dir build",
-    "build": "npm install && npm run knex -- migrate:latest && npm run build",
+    "build": "npm install && npm run knex -- migrate:latest && npm run prebuild",
     "start": "node build/server.js",
     "test": "vitest"
   },
