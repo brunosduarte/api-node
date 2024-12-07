@@ -9,7 +9,7 @@ GET {{baseUrl}}
 GET {{baseUrl}}/summary
 
 ### List transaction by id
-GET {{baseUrl}}/d67a1d50-998d-4a99-872b-b69c07895904
+GET {{baseUrl}}/09a8767f-854c-42ea-83c7-9108ebdc8e76
 
 ### Create transaction
 POST {{baseUrl}}
